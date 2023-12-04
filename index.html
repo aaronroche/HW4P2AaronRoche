@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+
+<!--
+File: index.html
+GUI Assignment: HW4 - Part 2: jQuery UI Slider and Tab Widgets
+Aaron Roche
+aaron_roche@student.uml.edu
+-->
+
+<html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <title>Multiplication Table</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+ </head>
+ <body>
+     <h1> Multiplication Table </h1>
+     <form id="inputs">
+         <table id="userInput">
+             <tr>
+                 <td id="startMultiplierText">Start Multiplier:</td>
+                 <td><input type="text" name="startMultiplier" id="startMultiplier" value="0" required></td>
+             </tr>
+             <tr>
+                 <td id="startMultiplierSlider" colspan="2"></td>
+             </tr>
+             <tr>
+                 <td id="endMultiplierText">End Multiplier:</td>
+                 <td><input type="text" name="endMultiplier" id="endMultiplier" value="0" required></td>
+             </tr>
+             <tr>
+                 <td id="endMultiplierSlider" colspan="2"></td>
+             </tr>
+             <tr>
+                 <td id="startMultiplicandText">Start Multiplicand:</td>
+                 <td><input type="text" name="startMultiplicand" id="startMultiplicand" value="0" required></td>
+             </tr>
+             <tr>
+                 <td id="startMultiplicandSlider" colspan="2"></td>
+             </tr>
+             <tr>
+                 <td id="endMultiplicandText">End Multiplicand:</td>
+                 <td><input type="text" name="endMultiplicand" id="endMultiplicand" value="0" required></td>
+             </tr>
+             <tr>
+                 <td id="endMultiplicandSlider" colspan="2"></td>
+             </tr>
+             <tr>
+                 <td id="generate" colspan="2"><button class="submit" type="submit">Add Table</button></td>
+             </tr>
+         </table>
+     </form>
+     <div id="infotext">
+     </div>
+     <div id="table">
+     </div>
+     <div id="tableTabs">
+         <ul id="tabList"></ul>
+     </div>
+     <div id="buttons">
+     </div>
+     <script src="js/script.js"></script>
+ </body>
+</html>

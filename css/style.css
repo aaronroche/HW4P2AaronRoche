@@ -1,0 +1,99 @@
+
+/*
+File: style.css
+GUI Assignment: HW4 - Part 2: jQuery UI Slider and Tab Widgets
+Aaron Roche
+aaron_roche@student.uml.edu
+*/
+
+body {
+    margin: auto;
+    margin-top: 1%;
+    padding-bottom: 2em;
+    text-align: center;
+    border: 2px solid #336699;
+    width: 70%;
+    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    border: 3px solid #336699;
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    table-layout: fixed;
+    position: relative;
+}
+
+td {
+    border: 1px solid #336699;
+    border-bottom: none;
+    border-left: none;
+    padding: 10px;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #336699;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 4em;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #668cff;
+    color: white;
+}
+
+#userInput, #startMultiplierText p, #endMultiplierText p, #startMultiplicandText p, #endMultiplicandText p, #infotext {
+    font-weight: bold;
+    color: #003dcc;
+    overflow: hidden;
+    margin: 0;
+}
+
+#table td, #table th {
+    min-width: 30px;
+}
+
+#table {
+    font-weight: bold;
+    border-color: white;
+    padding-top: 1%;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 385px;
+}
+
+#row {
+    color: white;
+    background-color: #333;
+}
+
+#userInput {
+    font-weight: bold;
+}
+#infoText {
+    margin: 0;
+}
+
+#selectTab, #removeTab {
+    width: 175px;
+    margin-top: 12px;
+    border: solid;
+    margin-right: 25px;
+}
